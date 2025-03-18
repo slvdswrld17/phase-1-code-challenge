@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+    margin: 20PX;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Title */
+
+#title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 28px;
+
+    width: 100%;
+    display: block;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#ramen-menu img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: transform 0.2s ease-in-out, border 0.2s;
+
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+    border: 2px solid black;
+}
+
+/* Ramen Detail Section */
+
+#ramen-detail {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#ramen-detail img {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+
+}
+
+#ramen-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ramen-restaurant {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#ramen-detail img {
+    width: 200px;
+    height: auto;
+    border: #333;
+    border: 20px solid white;
+
+}
+
+#ramen-name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#ramen-restaurant {
+    font-size: 18px;
+    color: #555;
+}
+
+#ramen-rating, #ramen-comment {
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* Form Styling */
+
+#new-ramen-form {
+    background: white;
+    padding: 20px;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#new-ramen-form h2 {
+    text-align: center;
+}
+
+#new-ramen-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#Add-New-Ramen{
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+}
+
+#new-ramen-form button {
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#new-ramen-form button:hover {
+    background: #333;
